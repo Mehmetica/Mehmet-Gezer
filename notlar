@@ -1,0 +1,68 @@
+shift+command+P control panelini acar, 
+
+-----------------------------------
+"""
+1 ⁠JSON’a Veri Yazmak (Kaydetmek)
+Diyelim ki oyuncakların listesini bir dosyaya kaydetmek istiyorsun. Bu işlemi şöyle yapabiliriz:
+
+Örnek:
+python
+Copy code
+import json
+
+# JSON formatında saklamak istediğimiz veri
+oyuncaklar = {
+    "isim": "Fatih",
+    "yas": 8,
+    "oyuncaklar": ["araba", "robot", "top"]
+}
+
+# Veriyi bir dosyaya JSON olarak kaydet
+with open("oyuncaklar.json", "w") as dosya:
+    json.dump(oyuncaklar, dosya)
+
+print("Veri JSON dosyasına yazıldı!")
+json.dump(): Veriyi bir dosyaya JSON formatında yazar.
+"oyuncaklar.json": Oluşturulan dosya adı.
+2.⁠ ⁠JSON’dan Veri Okumak
+Kaydettiğimiz bu dosyadaki veriyi geri almak istersek, şöyle yaparız:
+
+Örnek:
+python
+Copy code
+import json
+
+# JSON dosyasını aç ve oku
+with open("oyuncaklar.json", "r") as dosya:
+    veri = json.load(dosya)
+
+print("JSON dosyasından okunan veri:", veri)
+
+# Örneğin sadece "oyuncaklar" kısmını almak istiyoruz
+print("Oyuncakların listesi:", veri["oyuncaklar"])
+json.load(): JSON dosyasından veriyi okur ve Python’un anlayabileceği bir formata çevirir (mesela bir sözlük).
+3.⁠ ⁠JSON’u Doğrudan String Olarak Kullanmak
+Eğer bir JSON verisi dosyada değil de metin (string) olarak varsa, şöyle işlenir:
+
+Örnek:
+python
+Copy code
+import json
+
+# JSON formatında bir string
+json_metin = '{"isim": "Fatih", "yas": 8, "oyuncaklar": ["araba", "robot", "top"]}'
+
+# String'i Python sözlüğüne çevir
+veri = json.loads(json_metin)
+print("JSON metni Python verisi olarak işlendi:", veri)
+
+# Veriyi tekrar JSON string'e çevirmek
+yeni_json = json.dumps(veri, indent=4)
+print("Python verisi tekrar JSON metnine çevrildi:\n", yeni_json)
+json.loads(): JSON formatındaki bir metni (string) Python sözlüğüne çevirir.
+json.dumps(): Python verisini JSON formatındaki bir metne çevirir.
+Sonuç
+Yazmak için: json.dump() ya da json.dumps()
+Okumak için: json.load() ya da json.loads()
+Bunlarla JSON dosyalarını okuyabilir ve yazabilirsiniz! 😄
+"""

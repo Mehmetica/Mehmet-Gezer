@@ -1,0 +1,14 @@
+girdi= input("Bir kelime giriniz: ")
+
+ters=""
+i=-1
+while True:
+    while i>=(-(len(girdi))):
+      ters+=girdi[i]
+      i-=1
+    
+    if ters==girdi:
+      print(f"Girilen kelime palindrome dur!")
+     
+    else:
+        print("Girilen kelime palindrome degildir!")

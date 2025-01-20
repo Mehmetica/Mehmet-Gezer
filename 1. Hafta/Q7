@@ -1,0 +1,13 @@
+n = int(input("Kaçıncı Fibonacci sayısını görmek istiyorsunuz? "))
+
+# İlk iki Fibonacci sayısı
+a, b = 0, 1
+
+if n == 0:
+    print("Fibonacci sayısı:", a)
+elif n == 1:
+    print("Fibonacci sayısı:", b)
+else:
+    for _ in range(2, n + 1):  # 2'den başlayarak n'e kadar döngü
+        a, b = b, a + b  # Değerleri kaydır: a -> b, b -> a + b
+    print("Fibonacci sayısı:", b)

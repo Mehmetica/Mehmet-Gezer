@@ -1,0 +1,37 @@
+[
+    {
+        "Barkod": 9786053114772,
+        "ID": "123",
+        "Isim- Soyisim": "sdfsf",
+        "Kitabin odunc verildigi tarih": "2025-01-17 12:57:05",
+        "Kitabin geri alinacagi tarih": "2025-01-31 12:57:05"
+    },
+    {
+        "Barkod": 9786057906465,
+        "ID": "230609132142397259720638617893252457114",
+        "Isim-Soyisim": "mehmet gezer",
+        "Kitabin odunc verildigi tarih": "2025-01-17 14:02:35",
+        "Kitabin geri alinacagi tarih": "2025-01-31 14:02:35"
+    },
+    {
+        "Barkod": 9786051856322,
+        "ID": "10606006960189576679643634086326290260",
+        "Isim-Soyisim": "jhg",
+        "Kitabin odunc verildigi tarih": "2025-01-18 12:56:19",
+        "Kitabin geri alinacagi tarih": "2025-02-01 12:56:19"
+    },
+    {
+        "Barkod": 9789750751363,
+        "ID": "        \"ID\": 276842113383386389883109984942147089758,",
+        "Isim-Soyisim": "kazim karabekir",
+        "Kitabin odunc verildigi tarih": "2025-01-18 13:22:58",
+        "Kitabin geri alinacagi tarih": "2025-02-01 13:22:58"
+    },
+    {
+        "Barkod": 999999999999999,
+        "ID": "276842113383386389883109984942147089758",
+        "Isim-Soyisim": "kazim karabekir",
+        "Kitabin odunc verildigi tarih": "2025-01-18 14:43:34",
+        "Kitabin geri alinacagi tarih": "2025-02-01 14:43:34"
+    }
+]

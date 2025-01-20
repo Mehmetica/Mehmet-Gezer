@@ -1,0 +1,16 @@
+girdi=int(input("kac sayi girmek isterdiniz?: " ))
+
+dizi=[]
+for i in range(1,girdi+1):
+    dizi.append(int(input(f"{i} . sayiyi giriniz: ")))
+max=0
+for j in range(len(dizi)):
+    if max< dizi[j]:
+        max=dizi[j]
+
+print(f" max sayiniz: {max} tir")
+    
+
+
+
+

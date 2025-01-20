@@ -1,0 +1,7 @@
+girdi= int(input("bir sayi giriniz: "))
+
+if girdi%2==0:
+    print("f Girdiginiz sayi cifttir")
+else:
+    print("Girdiginiz sayi tektir")
+    

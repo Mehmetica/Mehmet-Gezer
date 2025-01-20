@@ -1,0 +1,11 @@
+girdi= int(input("bir sayi giriniz: "))
+
+for i in range(2,int(girdi/2)):
+    if (girdi%i==0):
+        print('sayiniz asal degildir')  
+        break  
+else:
+    print("Sayiniz asaldir")
+    
+        
+    

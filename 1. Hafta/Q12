@@ -1,0 +1,23 @@
+sinav=[]
+arasinav=[]
+final=[]
+ortalama=[]
+
+for i in range(4):
+    sinav.append(input(f" {i+1} . sinav adi giriniz: "))
+    arasinav.append(int(input(f" {sinav[i]} sinavinin ara sinav puanini giriniz: ")))
+    final.append(int(input(f" {sinav[i]} sinavinin final sinavi puanini giriniz: ")))
+    ortalama.append((arasinav[i]*0.4)+(final[i]*0.6))
+
+for j in range(len(ortalama)):
+    if ortalama[j] >= 50:
+        print(f" {sinav[j]} sinavindan puan ortalamaniz: {ortalama[j]} dir ve GECTINIZ!")
+    else:
+        print(f" {sinav[j]} sinavindan puan ortalamaniz: {ortalama[j]} dir ve KALDINIZ!")
+
+
+    
+
+
+
+

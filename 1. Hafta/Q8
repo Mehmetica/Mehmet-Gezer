@@ -1,0 +1,10 @@
+girdi= input("Bir kelime giriniz: ")
+
+ters=""
+i=-1
+while i>=(-(len(girdi))):
+    ters+=girdi[i]
+    i-=1
+    
+
+print(f"Girilen kelimenin tersi= ",ters)

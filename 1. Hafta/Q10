@@ -1,0 +1,15 @@
+boy=float(input("Boyunuzu giriniz m(Ornek: 1.73)"))
+kilo=float(input("Kilonuzu giriniz kg(Ornek: 78)"))
+
+index=kilo/(boy**2)
+
+if index<25:
+    print("Zayif")
+elif 25<=index<30:
+    print("Normal")
+elif 30<= index<=40:
+    print("Asiri kilolu")
+else:
+    print("Obez")
+
+

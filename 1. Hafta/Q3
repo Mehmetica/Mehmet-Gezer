@@ -1,0 +1,5 @@
+girdi1=int(input("1. sayiyi giriniz: "))
+girdi2=int(input("2. sayiyi giriniz: "))
+
+for i in range(girdi1,girdi2+1):
+    print(i)

@@ -1,0 +1,18 @@
+girdi=int(input("Bir sayi giriniz: "))
+even_numbers=[]
+
+"""for i in range(girdi+1):
+    if i%2==0:
+        even_numbers.append(i)
+
+print("cift sayilar :", even_numbers)"""
+i=0
+while i<=girdi:
+    if i%2==0:
+        even_numbers.append(i)
+    i+=1
+
+print(even_numbers)  
+
+
+
